@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+
+    <style>
+        h1{
+            /* Element Selector */
+            color: blue;
+            font-family: cursive;
+            font-style: italic;
+        }
+        
+        
+        h2,p{
+            color: red;
+            font-family: fantasy;
+            background-image: url(/images/dog.avif);
+        }
+
+        *{
+            /* Universal Selector */
+            /* margin: 0;
+            padding: 0; */
+            background-color: bisque;
+        }
+
+        .nancy{
+            font-size: xx-large;
+            font-family: verdana;
+
+            /* font-family: facile sans; */
+        }
+
+
+        #swara{
+            background-image: url(https://images.unsplash.com/photo-1688141585146-1fb4a1358c87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+        }
+
+        div.ansh h2.nancy{
+            color: blue;
+        }
+
+        #manoj
+        {
+            color: brown;
+        }
+
+
+        /* ID >>>>>> Class >>>>> Element */
+
+    </style>
+</head>
+<body>
+    <!-- Simple Selectors -->
+    <ol type="A">
+        <li>Simple Selectors
+            <ul>
+                <li>Element Selector</li>
+                <li>Class Selector</li>
+                <li>Id Selector</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h1>Element Selector</h1>
+
+    <h2>Element, Element</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid omnis nihil dolorum dolor delectus quae laborum molestiae odit asperiores! Quasi error amet velit ea odio quaerat commodi at saepe praesentium!</p>
+
+    <h2 class="nancy">H2 Under nancy class</h2>
+
+    <div>
+        <h2 class="nancy">h2.nancy</h2>
+        <h2 id="swara">h2#swara</h2>
+    </div>
+
+    <div class="ansh">
+        <h2 class="nancy">div.ansh h2.nancy</h2>
+    </div>
+
+    <div class="ansh">
+        <h2 class="nancy" id="manoj">div.ansh h2.nancy or #manoj</h2>
+    </div>
+</body>
+</html>

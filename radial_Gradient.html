@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radial Gradient</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box{
+            width: 500px;
+            height: 400px;
+            border: 2px solid red;
+            position: relative;
+            top: 130px;
+            left: 390px;
+            /* margin: 130px auto; */
+            /* background-image: linear-gradient(red, yellow, green); */
+            /* background-image: radial-gradient(ellipse at top left,red 5%, yellow 80%, green 90%); */
+            background-image: radial-gradient(circle at top left,red 5%, yellow 40%, green 60%);
+        }
+
+        .container{
+            /* border: 5px solid red; */
+            width: 100vw;
+            height: 100vh;
+            background-image: linear-gradient(to top right,rgb(234, 241, 241) 40%, rgb(68, 216, 243));
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+
+
+    <!-- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima ab repudiandae necessitatibus consequatur at ipsum sequi aperiam, voluptatum modi quidem quam ipsa commodi possimus officia iure impedit quod iusto dignissimos? -->
+    
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .container{
+            width: 400px;
+            height: 600px;
+            margin: 160px 380px;
+            background-color: burlywood;
+        }
+
+        .box
+        {
+            width: 100px;
+            height: 100px;
+            /* border: 2px solid red; */
+            font-family: cursive;
+            font-size: 20px;
+            color: black;
+        }   
+
+        .red{
+            background-color: red;
+            position: relative;
+            top: 400px;
+            left: 600px;
+            /* right: 20px; */
+        }
+
+        .blue{
+            background-color: blue;
+            position: absolute;
+            top: 140px;
+            left: 1050px;
+            /* border-radius: 50%; */
+            /* width: 120px; */
+            /* height: 120px; */
+        }
+
+        .yellow{
+            background-color: yellow;
+            position: fixed;
+            top: 50px;
+            left: 500px;
+        }
+
+        .green{
+            background-color: green;
+            position: sticky;
+            top: 0px;
+        }
+
+
+        .spacer{
+            height: 300vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- div.box{box-$}*4 -->
+        
+        <div class="box red">Relative</div>
+        <div class="box blue">Absolute</div>
+        <div class="box yellow">Fixed</div>
+        <div class="box green">Sticky</div>
+
+
+        <!-- div#iresh.box-${Ansh-$}*10 -->
+    </div>
+
+    <div class="spacer">
+
+    </div>
+</body>
+</html>
